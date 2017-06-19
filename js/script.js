@@ -28,7 +28,7 @@ $(document).ready(function() {
 			$("#prev").attr("disabled", false);
 			$(divs[index]).fadeOut('slow', function() {
 				index --;
-				console.log(index);
+				//console.log(index);
 				$(divs[index]).fadeIn('slow');
 			});
 		}
